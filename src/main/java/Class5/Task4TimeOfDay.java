@@ -17,7 +17,6 @@ public class Task4TimeOfDay {
             System.out.println("Its night time here");
         }else {
             System.out.println("Sorry an invalid time entered");
-            sc.close();
         }
     }
 }

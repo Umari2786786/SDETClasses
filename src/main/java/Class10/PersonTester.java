@@ -3,17 +3,17 @@ package Class10;
 public class PersonTester {
     public static void main(String[] args) {
 
-        Person p1 = new Person();
-    p1.name="*****";
-    p1.gender="Female";
-    p1.age=30;
-    p1.hobbies="chilling";
+        Person Person1 = new Person();
+        Person1.name="Female name";
+        Person1.gender="Female";
+        Person1.age=30;
+        Person1.hair="black hair";
 
-        System.out.println(p1.name + " - " + p1.gender);
-        System.out.println(p1.age + " - " + p1.hobbies);
+        System.out.println(Person1.name + " - " + Person1.gender);
+        System.out.println(Person1.age + " - " + Person1.hair);
         System.out.println();
-        p1.shouting();
-        p1.shopping();
-        p1.sleeping();
+        Person1.shouting();
+        Person1.shopping();
+        Person1.sleeping();
     }
 }

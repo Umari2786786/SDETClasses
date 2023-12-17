@@ -5,7 +5,7 @@ public class E5Task1Tutor {
 
         String username="user123";
         String password="pass4123";
-        String confirmPassword="pass123";
+        String confirmPassword="pass4123";
 
         if (username.isEmpty() || password.isEmpty()){
             System.out.println("username empty");}
@@ -13,7 +13,7 @@ public class E5Task1Tutor {
             System.out.println("Password to short");}
         else if (password.contains(username)) {
             System.out.println("Password cant contain username");}
-        else if (password.equals(confirmPassword)) {
+        else if (!password.equals(confirmPassword)) {
             System.out.println("Password not matching");}
         else {System.out.println("username and password created");
     }

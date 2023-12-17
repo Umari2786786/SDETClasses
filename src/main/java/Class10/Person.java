@@ -4,7 +4,7 @@ public class Person {
     String name;
     String gender;
     int age;
-    String hobbies;
+    String hair;
 
 
     void shouting() {System.out.println("Shouting");}

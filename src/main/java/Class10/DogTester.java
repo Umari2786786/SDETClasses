@@ -2,7 +2,8 @@ package Class10;
 
 public class DogTester {
     public static void main(String[] args) {
-Dog dog1= new Dog();
+Dog dog1= new Dog(); /* this link it with the dog class.
+                   the class name//variable name/= new(class name again)*/
        dog1.name="Monty";
        dog1.breed="XL Bully";
        dog1.colour="Oreo";

@@ -8,7 +8,11 @@ public class Students {
 
     void Student(){
         System.out.println("No of students is "+noOfStudents);
-        int i=1;
-        if (i=1;i=<10;i++){}
+            }
+
+    public static void main(String[] args) {
+        Students s1=new Students();
+
     }
+
 }
